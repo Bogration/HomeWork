@@ -1,0 +1,12 @@
+.text-bold{
+	font-weight: bold;
+	color: red;
+}
+
+div.child {
+	color: orange;
+}
+
+a {
+	color: green;
+}
