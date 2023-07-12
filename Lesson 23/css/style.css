@@ -1,0 +1,70 @@
+.wrapper {
+	padding: 100px 100px 30vh;
+	height: 100vh;
+}
+
+.block {
+	height: 100%;
+	box-shadow: 0 0 10px rgb(83, 83, 83);
+	border-radius: 5px;
+}
+
+.wrapper-1 {
+	padding: 100px 100px 30vh;
+	height: 100vh;
+}
+
+.block-1 {
+	height: 100%;
+	box-shadow: 0 0 10px rgb(83, 83, 83);
+	border-radius: 5px;
+}
+
+/* ------------------------------------------------------ */
+
+.block {
+	background: url("../img/StockSnap_5NLKT00MVB.jpg") 50% 50% no-repeat, radial-gradient(#8ad1e2, #777);
+}
+
+.block-1 {
+	background-image: url("../img/StockSnap_5NLKT00MVB.jpg"), repeating-radial-gradient(circle, aqua 20px, red 80px);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	}
+
+	.block-2 {
+		background-image:repeating-radial-gradient(circle, aqua 20px, red 80px);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		}
+
+	/*----------------------------------*/
+
+	.wrapper-2 {
+		padding: 100px 100px 30vh;
+		height: 100vh;
+	}
+	
+	.block-2 {
+		height: 100%;
+		box-shadow: 0 0 10px rgb(83, 83, 83);
+		border-radius: 5px;
+	}
+
+	.gradient {
+		display: inline-block;
+		position: relative;    
+		line-height: 0;
+	}
+	.gradient:after {
+		content: "";
+		display: block;    
+		width: 100%;
+		height: 100%;    
+		position: absolute;
+		top: 0;      
+		left: 0;   
+		background: transparent;
+		background-image: linear-gradient(to left, #11de93, #0e7ad6);
+		opacity: 0.8;
+	}
