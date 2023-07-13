@@ -1,0 +1,35 @@
+.wrapper {
+	padding: 100px 100px 30vh;
+	height: 100vh;
+}
+
+.block {
+	height: 100%;
+	box-shadow: 0 0 10px rgb(83, 83, 83);
+	border-radius: 5px;
+}
+
+
+
+/* -----Универсальное свойство background------ */
+
+.block {
+	background: url("../img/StockSnap_5NLKT00MVB.jpg") 50% 50% no-repeat, radial-gradient(#8ad1e2, #777);
+}
+
+/*--------Отдельные свойства----------*/
+
+.wrapper-2 {
+	padding: 100px 100px 30vh;
+	height: 100vh;
+}
+
+.block-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: repeating-radial-gradient(circle, aqua 20px, red 80px);
+	height: 100%;
+	box-shadow: 0 0 10px rgb(83, 83, 83);
+	border-radius: 5px;
+}
